@@ -13,7 +13,7 @@ const Filters = ({ onSearch }) => {
   const {user, isLoaded} = useUser();
 
   const handleSearch = () => {
-    onSearch(searchName); // Invoke the callback function with the search name
+    onSearch(searchName);
   };
 
 
