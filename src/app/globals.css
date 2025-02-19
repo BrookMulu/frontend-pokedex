@@ -4,26 +4,32 @@
 
 :root {
   --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+  --background-start-rgb: 214, 219, 220; /* Light gray start */
+  --background-end-rgb: 255, 255, 255;   /* White end */
+  --background-overlay-rgba: 255, 255, 255, 0.8; /* Semi-transparent overlay */
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
     --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+    --background-start-rgb: 0, 0, 0; /* Dark start */
+    --background-end-rgb: 0, 0, 0;   /* Dark end */
+    --background-overlay-rgba: 0, 0, 0, 0.8; /* Semi-transparent overlay */
   }
 }
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
+  background: 
+    linear-gradient(
       to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+      rgb(var(--background-start-rgb)) 0%,
+      rgb(var(--background-end-rgb)) 80%,
+      rgba(var(--background-end-rgb), 1) 100%
+    ),
+    rgba(var(--background-overlay-rgba)); /* Add the overlay */
+  background-attachment: fixed; /* Ensure the gradient stays consistent on scroll */
+  background-blend-mode: normal; /* Ensure blending works correctly */
 }
 
 @layer utilities {
@@ -31,5 +37,10 @@ body {
     text-wrap: balance;
   }
 }
+
+
+
+
+
 
 
