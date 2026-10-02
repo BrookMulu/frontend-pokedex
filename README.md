@@ -6,7 +6,7 @@ A responsive Pokedex interface built with Next.js and React. The application sup
 
 The demo plays directly below—no download or separate file page required.
 
-https://github.com/user-attachments/assets/85b20a46-a300-475d-b89f-d2e8548d2723
+https://github.com/user-attachments/assets/f8048113-ea3e-4334-adda-7fa887d02689
 
 ## Getting Started
 
