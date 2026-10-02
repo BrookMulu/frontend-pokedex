@@ -1,4 +1,14 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Pokedex Frontend
+
+A responsive Pokedex interface built with Next.js and React. The application supports browsing, searching, sorting, and filtering Pokemon, along with authenticated user features powered by the backend service.
+
+## Demo
+
+Click the preview below to watch the application demo.
+
+[![Watch the Pokedex application demo](./docs/pokedex-demo-preview.png)](./docs/pokedex-demo.mov)
+
+[Watch the full demo video](./docs/pokedex-demo.mov)
 
 ## Getting Started
 
@@ -34,4 +44,3 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
-
