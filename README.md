@@ -4,11 +4,9 @@ A responsive Pokedex interface built with Next.js and React. The application sup
 
 ## Demo
 
-Click the preview below to watch the application demo.
+The demo plays directly below—no download or separate file page required.
 
-[![Watch the Pokedex application demo](./docs/pokedex-demo-preview.png)](./docs/pokedex-demo.mov)
-
-[Watch the full demo video](./docs/pokedex-demo.mov)
+https://github.com/user-attachments/assets/7965cc0a-1808-4bc1-b502-4b846921d325
 
 ## Getting Started
 
